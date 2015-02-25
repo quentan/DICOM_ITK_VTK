@@ -35,12 +35,12 @@ int main(int argc, char *argv[]) {
     // ITK DICOM image reading
     // S1. Define data types
     const unsigned int kInputDimension = 3;
-    const unsigned int kOutputDimension = 2;
+//    const unsigned int kOutputDimension = 2;
 
     typedef signed short PixelType;
 
     typedef itk::Image<PixelType, kInputDimension>      InputImageType;
-    typedef itk::Image<PixelType, kOutputDimension>     OutputImageType;
+//    typedef itk::Image<PixelType, kOutputDimension>     OutputImageType;
     typedef itk::ImageSeriesReader<InputImageType>      ReaderType;
     typedef itk::GDCMImageIO                            ImageIOType;
     typedef itk::GDCMSeriesFileNames                    InputNamesGeneratorType;

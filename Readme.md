@@ -2,7 +2,7 @@
 
 **ITK** is good at DICOM image operation, while **VTK** can render excellent volume results. Although **VTK** can read some DICOM images, compressed DIMCOMs are out of its ability. This is why **ITK** and **VTK** are usually combined together on DICOM image operations.
 
-Simple DICOM image read and write examples can be found in **VTK** wiki, but *sometimes* DICOM serial images reading with **ITK** gives some errors when **VTK** volume rendering is used. This test gives the errors and tries to solve them.
+Simple DICOM image read and write examples can be found in **VTK** wiki. This test shows how to read DICOM serial images with **ITK** and then render the volume with **VTK**.
 
 ## Programming environment
 
